@@ -459,22 +459,19 @@ img {
       grid-area: "bio";
       grid-column: 1; }
   #about-c {
-    display: none; } }
-
-#contact-a .text-fields {
-  grid-template-areas: "name" "email" "subject" "phone" "message" "message"; }
-
-#contact-b div {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border-bottom: 1px solid #555; }
-  #contact-b div:last-child {
-    margin-bottom: 0;
-    padding: 0;
-    border: none; }
-
-#contact-c h1 {
-  font-size: 2rem; }
+    display: none; }
+  #contact-a .text-fields {
+    grid-template-areas: "name" "email" "subject" "phone" "message" "message"; }
+  #contact-b div {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #555; }
+    #contact-b div:last-child {
+      margin-bottom: 0;
+      padding: 0;
+      border: none; }
+  #contact-c h1 {
+    font-size: 2rem; } }
 
 @media (max-height: 580px) {
   #header-home .header-content {
